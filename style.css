@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>WL Love Diary</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* General Styles */
+    ul, li, body, p {
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --color: #feda3b; /* Custom color */
+    }
+
+    body {
+      background-color: #fff; /* White background */
+    }
+
+    ul, li {
+      list-style-type: none; /* Removes default list styling */
+    }
+
+    a {
+      text-decoration: none; /* No underline for links */
+      color: #333; /* Dark text color */
+      cursor: pointer; /* Cursor appears as a pointer */
+    }
+
+    .wrapin {
+      width: 1000px; /* Set container width */
+      margin: 0 auto; /* Center the container */
+    }
+
+    header {
+      height: 50px; /* Set height for header */
+      background-color: var(--color); /* Use the custom color for background */
+    }
+
+    .nav {
+      height: 50px; /* Set the height of the navigation bar */
+    }
+
+    .nav li {
+      line-height: 50px; /* Center text vertically in nav items */
+      float: left; /* Make the list items appear side by side */
+      width: 20%; /* Each nav item takes up 20% width */
+      text-align: center; /* Center align the text */
+      font-size: 16px; /* Set font size for navigation items */
+    }
+
+    .nav li a {
+      color: #333; /* Dark color for the text of the links */
+    }
+
+    .banner img {
+      width: 100%; /* Make the image fill the width of the container */
+      height: 600px; /* Set a fixed height for the banner image */
+      display: block; /* Remove extra space below the image */
+      object-fit: cover; /* Crop the image to fill the container */
+    }
+
+    footer {
+      background: var(--color); /* Footer background uses the custom color */
+      text-align: center; /* Center the text in the footer */
+      line-height: 50px; /* Vertically center the text */
+      margin-top: 15px; /* Add some space above the footer */
+    }
+
+    h2, h3 {
+      color: #6b4c15; /* Set header colors to a specific shade */
+    }
+
+    /* Title Styles */
+    .title {
+      font-size: 30px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    /* Navigation Styling */
+    header .nav li a {
+      font-weight: bold;
+      color: #fff;
+    }
+
+    header .nav li a:hover {
+      color: #6b4c15; /* Hover color change */
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="wrapin">
+    <!-- Header -->
+    <header>
+      <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Story Overview</a></li>
+        <li><a href="#">Main Characters</a></li>
+        <li><a href="#">Image Appreciation</a></li>
+        <li><a href="#">Exciting Clips</a></li>
+      </ul>
+    </header>
+
+    <!-- Banner Image -->
+    <div class="banner">
+      <img src="images/16.jpg" alt="Banner Image" />
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+      <div class="title">
+        <h2><a href="#">Moments Together</a></h2>
+      </div>
+      <ul class="photo">
+        <li><img src="images/7.jpeg" alt="Image 1" /></li>
+        <li><img src="images/8.jpg" alt="Image 2" /></li>
+        <li><img src="images/9.jpg" alt="Image 3" /></li>
+        <li><img src="images/10.jpg" alt="Image 4" /></li>
+        <li><img src="images/11.jpg" alt="Image 5" /></li>
+        <li><img src="images/12.jpg" alt="Image 6" /></li>
+        <li><img src="images/13.jpg" alt="Image 7" /></li>
+        <li><img src="images/14.jpg" alt="Image 8" /></li>
+        <li><img src="images/15.jpg" alt="Image 9" /></li>
+      </ul>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>SpongeBob SquarePants</p>
+    </footer>
+  </div>
+</body>
+
+</html>
